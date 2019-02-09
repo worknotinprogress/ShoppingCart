@@ -1,0 +1,6 @@
+parameters:
+  default_currency: 'EUR'
+  currencies:
+      EUR: 1
+      GBP: 1.14
+      USD: 0.88

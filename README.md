@@ -8,8 +8,9 @@ To setup this application you'll need to:
 
 1. rename .env-dev to .env
 2. in evn. file change database logins
-2. run command "./bin/console doctrine:database:create"
-3. run command "./bin/console doctrine:migrations:migrate"
+3. run command composer install
+4. run command "./bin/console doctrine:database:create"
+5. run command "./bin/console doctrine:migrations:migrate"
 
 Instructions:
 - Run command ".bin/console  cart:process-products full_path_to_file" example "/home/www/src/shoppingcart/temp/customer1.csv"
